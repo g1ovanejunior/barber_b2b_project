@@ -25,7 +25,7 @@ Sistemas reais de barbearia raramente possuem um campo dizendo *"este cliente co
 
 * **`recencia_dias`**: Dias decorridos desde o último atendimento até a data atual.
 * **`frequencia_media_dias`**: Intervalo médio histórico (calculado via diferença temporal entre visitas consecutivas) que aquele cliente específico leva para retornar.
-* **`razao_atraso`**: Índice relativo de atraso dado por $\frac{\text{recencia\_dias}}{\text{frequencia\_media\_dias}}$. *(Ex.: Um cliente com ciclo habitual de 20 dias que está há 26 dias sem agendar apresenta razão `1.30`, indicando 30% de atraso em relação ao seu próprio padrão).*
+* **`razao_atraso`**: *(Ex.: Um cliente com ciclo habitual de 20 dias que está há 26 dias sem agendar apresenta razão `1.30`, indicando 30% de atraso em relação ao seu próprio padrão).*
 * **`total_visitas` & `ticket_medio`**: Métricas de fidelidade e valor monetário para priorização de receita em risco.
 
 ### 2. Modelo Preditivo de *Churn* (Machine Learning)
